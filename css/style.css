@@ -30,6 +30,9 @@ Version      : 1.0
 	font-family: 'yekan';
 	src: url('../fonts/Yekan.woff')format('woff'),
 	url('../fonts/Yekan.ttf')format('ttf'),
+	url('../fonts/Vazir-Black.ttf')format('ttf'),
+	url('../fonts/Vazir-Bold.woff')format('ttf'),
+	url('../fonts/Vazir-Bold.ttf')format('ttf'),
 	url('../fonts/yekan-regular.ttf')format('ttf')
   }
  
@@ -1288,10 +1291,10 @@ padding-bottom: 20px;
 border: 1px solid #eee;
 border-radius: 500px;
 display: inline-block;
-float: left;
+float: right;
 height: 110px;
 margin-bottom: 30px;
-margin-right: 18px;
+margin-left: 18px;
 position: relative;
 width: 110px;
 }
@@ -1360,7 +1363,7 @@ border-radius:5px;
 .single_blog_pd{padding:25px;}
 .blog-span {}
 .author-name {
-	margin-right: 14px;
+	/*margin-right: 14px;*/
 	border-right: 1px solid #ddd;
 	padding-right: 15px;
 }
@@ -1561,7 +1564,7 @@ font-weight: 500;
 height: 60px;
 letter-spacing: 0.4px;
 margin: 0;
-padding: 0 150px 0 20px;
+padding: 0 40px 0 20px;
 text-align: center;
 text-transform: capitalize;
 width: 100%;
@@ -1577,7 +1580,7 @@ color: #35ac39;
 cursor: pointer;
 display: block;
 font-size: 20px;
-height: 60px;
+height: 45px;
 position: absolute;
 right: 0;
 top: 0;
@@ -1606,6 +1609,8 @@ button {
 list-style: outside none none;
 margin: 0;
 padding: 0;
+display: flex;
+flex-wrap: wrap;
 }
 .social_profile ul li{float:left;}
 .social_profile ul li a {
